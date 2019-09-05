@@ -1,1 +1,1 @@
-# sc_lab_automatic_diagnosis
+# sc_dl_cv_lab
