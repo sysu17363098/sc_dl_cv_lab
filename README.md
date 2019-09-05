@@ -1,0 +1,1 @@
+# sc_lab_automatic_diagnosis
