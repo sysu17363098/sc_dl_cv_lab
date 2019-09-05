@@ -1,0 +1,30 @@
+{
+    "data": {
+        "directory_name": "data",
+        "train_test_split": 0.6
+    },
+    "training": {
+        "epochs": 50,
+        "batch_size": 128
+    },
+    "optimizer": {
+        "loss": "mse",
+        "type": "adam",
+        "learning_rate": 0.001
+    },
+    "model": {
+        "save_dir": "save_models",
+        "layers": [
+            {
+                "type": "dense",
+                "neurons": 32,
+                "activation": "sigmoid"
+            },
+            {
+                "type": "dense",
+                "neurons": 16,
+                "activation": "relu"
+            }
+        ]
+    }
+}
